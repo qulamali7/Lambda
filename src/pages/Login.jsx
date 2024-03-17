@@ -6,7 +6,7 @@ const Login = () => {
     return (
         <>
             <section className=" h-screen py-[50px]">
-                <div className=" h-full  flex flex-col justify-between items-center ">
+                <div className=" h-full  flex flex-col justify-between items-center">
                     <h1 className="text-[#00B278] text-5xl font-[bold] uppercase">Lambda</h1>
                     <div className="max-w-[384px] w-full m-auto p-[12px] flex flex-col gap-[16px]">
                         <p className="font-work text-[24px] font-semibold text-center font-['Work Sans, sans-serif']">Welcome back</p>
