@@ -30,7 +30,7 @@ const Login = () => {
                             <input type="text" className="w-full py-[8px] px-[16px] leading-[150%] rounded-xl text-[14px] border border-solid border-[rgba(10,11,12,0.1)] outline-none shadow-[rgba(10,11,12,0.05)_0px_1px_2px_0px_inset]" placeholder="Password" />
                             <Btn />
                             <div className="flex items-center justify-between">
-                                <p className="font-inter text-center font-normal text-xs text-[rgba(10,11,11,0.5)]">Don't have an account? <Link to={"/"} className="cursor-pointer text-[rgb(0,178,120)] text-xs font-semibold leading-[1.5em] p-0 hover:text-[rgb(0,108,73)]  transition-[all] duration-[0.5s] ease">Sign up</Link></p>
+                                <p className="font-inter text-center font-normal text-xs text-[rgba(10,11,11,0.5)]">Don't have an account? <Link to={"/signup"} className="cursor-pointer text-[rgb(0,178,120)] text-xs font-semibold leading-[1.5em] p-0 hover:text-[rgb(0,108,73)]  transition-[all] duration-[0.5s] ease">Sign up</Link></p>
                                 <Link to={"/"} className="cursor-pointer text-[rgb(0,178,120)] text-xs font-semibold leading-[1.5em] p-0 hover:text-[rgb(0,108,73)]  transition-[all] duration-[0.5s] ease font-inter">Forgot password?</Link>
                             </div>
                         </form>
