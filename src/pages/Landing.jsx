@@ -176,7 +176,7 @@ const Landing = () => {
                         <p className='text-base leading-[1.5em] font-semibold text-center font-inter'>Legal experts</p>
                         <img className='w-[184px] absolute right-0 bottom-0 transition-[0.5s] duration-[all] ease-[ease] hover:-translate-x-4 hover:translate-y-4 hover:scale-[1.2]' src="../../public/audience-lawyers.webp" alt="" />
                     </div>
-                    
+
                 </div>
             </div>
             <div className='my-[160px]  m-auto flex flex-col items-center justify-center max-w-[752px] gap-10'>
@@ -259,8 +259,58 @@ const Landing = () => {
                         <p className='text-[rgba(10,11,11,0.5)] leading-[150%] font-inter text-xs'>1. Workee charges a 5% transaction fee for the Starter plan, while the Workee Pro plan comes with a 0% transaction fee. Note, additional transaction fees from payment providers (Stripe, PayPal) may apply to all payments.</p>
                     </div>
                 </div>
-                <footer>
-                    
+                <footer className='max-w-[1150px] m-auto flex justify-between my-[50px]'>
+                    <ul className='w-[233px] flex flex-col gap-4'>
+                        <li className='text-base leading-[1.5em] font-semibold mb-2 font-inter'>Solutions</li>
+                        <li>Personal Website</li>
+                        <li>Booking and Scheduling</li>
+                        <li>Online store</li>
+                        <li>Your workspace</li>
+                        <li>Video calls</li>
+                        <li>Payments and Invoicing</li>
+                        <li>Clients Management</li>
+                        <li>Finance Management</li>
+                        <li>Workee AI</li>
+                        <li>Integrations</li>
+                    </ul>
+                    <ul className='w-[233px] flex flex-col gap-4'>
+                        <li className='text-base leading-[1.5em] font-semibold mb-2 font-inter'>Perfect for</li>
+                        <li>Tutors and Teachers</li>
+                        <li>Stylists</li>
+                        <li>Freelancers</li>
+                        <li>Coaches</li>
+                        <li>Consultants</li>
+                        <li>Nutritionists</li>
+                        <li>Psychologists</li>
+                        <li>Therapists</li>
+                        <li>Health experts</li>
+                        <li>Yoga Experts</li>
+                        <li>Lawyers</li>
+                    </ul>
+                    <ul className='w-[233px] flex flex-col gap-4'>
+                        <li className='text-base leading-[1.5em] font-semibold mb-2 font-inter'>Workee</li>
+                        <li>Pricing</li>
+                        <li>About Us</li>
+                        <li>Blog</li>
+                        <li>Careers</li>
+                        <li>FAQ</li>
+                        <li>Partnership</li>
+                        <li>Contact Us</li>
+                    </ul>
+                    <div className='flex justify-between items-start w-[310px]'>
+                        <div className='flex flex-col items-center max-w-[90px] text-center'>
+                            <img src="../../public/logo-hipaa-sign.svg" alt="" />
+                            <p className='text-base leading-[1.5em] font-semibold font-inter'>HIPAA Compliant</p>
+                        </div>
+                        <div className='flex flex-col items-center max-w-[90px] text-center'>
+                            <img src="../../public/logo-pci-sign.svg" alt="" />
+                            <p className='text-base leading-[1.5em] font-semibold font-inter'>PCI Compliant</p>
+                        </div>
+                        <div className='flex flex-col items-center max-w-[90px] text-center'>
+                            <img src="../../public/logo-ssl-sign.svg" alt="" />
+                            <p className='text-base leading-[1.5em] font-semibold font-inter'>SSL Encryption</p>
+                        </div>
+                    </div>
                 </footer>
             </div>
         </>
